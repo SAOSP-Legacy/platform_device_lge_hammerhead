@@ -30,6 +30,7 @@ PRODUCT_BRAND := lge
 PRODUCT_MODEL := Nexus 5
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_RESTRICT_VENDOR_FILES := false
+PRODUCT_BUILD_PROP_OVERRIDES += DEVICE_MAINTAINERS="Vikrant Arya"
 
 $(call inherit-product, device/lge/hammerhead/device.mk)
 $(call inherit-product-if-exists, vendor/lge/hammerhead/device-vendor.mk)
