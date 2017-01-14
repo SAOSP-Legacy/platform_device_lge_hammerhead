@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 $(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
-
-PRODUCT_NAME := aosp_hammerhead
+$(call inherit-product, vendor/simpleaosp/configs/common.mk)
+PRODUCT_NAME := saosp_hammerhead
 
 PRODUCT_PACKAGES += \
     Camera2
